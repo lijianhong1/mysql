@@ -1,0 +1,67 @@
+@import "_config.scss";
+@import "_mixin.scss";
+@import "_common.scss";
+@import "_reset.scss";
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: pxTorem(10px);
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: pxTorem(44px);
+    img {
+        width: pxTorem(30px);
+        height: pxTorem(30px);
+    }
+}
+
+section {
+    flex: 1;
+    >div {
+        border: 1px solid #eee;
+        border-radius: pxTorem(10px);
+        div {
+            display: flex;
+            width: 100%;
+            padding: pxTorem(10px);
+            box-sizing: border-box;
+            &:nth-child(2) {
+                width: 100%;
+                flex-wrap: wrap;
+                span {
+                    width: 50%;
+                }
+            }
+            &:nth-child(1) {
+                justify-content: space-between;
+                border-bottom: 1px solid #eee;
+                input {
+                    border: 1px solid salmon;
+                    width: pxTorem(10px);
+                    height: pxTorem(10px);
+                    margin-right: pxTorem(10px);
+                }
+            }
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: pxTorem(44px);
+    button {
+        background: salmon;
+        color: #fff;
+        border: none;
+        height: pxTorem(30px);
+        padding: 0 pxTorem(10px);
+    }
+}

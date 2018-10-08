@@ -1,0 +1,37 @@
+{
+    "code": 1,
+    "masgin": "成功",
+    "result": [{
+            "name": "MySQL",
+            "time": "60天",
+            "money": "1200",
+            "list": [
+                "2核", "4GB", "40G", "100G"
+            ]
+        },
+        {
+            "name": "postgreSQL",
+            "time": "60天",
+            "money": "1250",
+            "list": [
+                "2核", "4GB", "40G", "100G"
+            ]
+        },
+        {
+            "name": "SQL postgre",
+            "time": "30天",
+            "money": "2250",
+            "list": [
+                "4核", "8GB", "40G", "100G"
+            ]
+        },
+        {
+            "name": "MongoDB",
+            "time": "30天",
+            "money": "2250",
+            "list": [
+                "4核", "8GB", "40G", "100G"
+            ]
+        }
+    ]
+}
