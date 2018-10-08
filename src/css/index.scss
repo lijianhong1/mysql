@@ -26,6 +26,7 @@ section {
     >div {
         border: 1px solid #eee;
         border-radius: pxTorem(10px);
+        margin-bottom: pxTorem(10px);
         div {
             display: flex;
             width: 100%;
@@ -34,8 +35,12 @@ section {
             &:nth-child(2) {
                 width: 100%;
                 flex-wrap: wrap;
-                span {
+                p {
                     width: 50%;
+                    i {
+                        color: #ccc;
+                        font-style: normal;
+                    }
                 }
             }
             &:nth-child(1) {
